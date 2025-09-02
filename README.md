@@ -1,4 +1,4 @@
-### ⚡ Tech Stack
+# ⚡ Tech Stack
 
 ### 🚀 Next.js (TypeScript)
 Framework powering the app
