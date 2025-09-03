@@ -6,9 +6,39 @@ import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { TaskItem, TaskList } from "@tiptap/extension-list";
 import { TableKit } from "@tiptap/extension-table";
-
+import Image from "@tiptap/extension-image";
+import ImageResize from "tiptap-extension-resize-image";
+// Zustand
+import { useEditorStore } from "@/store/use-editor-store";
 const Editor = () => {
+  const { setEditor } = useEditorStore();
   const editor = useEditor({
+    // Connecting the editor to our global variable (our store (Zustand))
+    /* Might be bad practise (if performance issues we can store just the editor content insted of the editor itself or use another approach)*/
+    onCreate: ({ editor }) => {
+      setEditor(editor);
+    },
+    onDestroy() {
+      setEditor(null);
+    },
+    onUpdate({ editor }) {
+      setEditor(editor);
+    },
+    onSelectionUpdate({ editor }) {
+      setEditor(editor);
+    },
+    onTransaction({ editor }) {
+      setEditor(editor);
+    },
+    onFocus({ editor }) {
+      setEditor(editor);
+    },
+    onBlur({ editor }) {
+      setEditor(editor);
+    },
+    onContentError({ editor }) {
+      setEditor(editor);
+    },
     editorProps: {
       attributes: {
         // Has to be dynamic because of User Interaction
@@ -20,6 +50,7 @@ const Editor = () => {
     extensions: [
       StarterKit,
       TaskList,
+      ImageResize,
       TaskItem.configure({ nested: true }),
       TableKit.configure({
         table: { resizable: true },
