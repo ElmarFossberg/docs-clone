@@ -3,6 +3,9 @@
 ### 🚀 Next.js (TypeScript)
 Framework powering the app
 
+### 🎨 shadcn/ui
+Beautiful, accessible components
+
 ### 🗄 Convex
 Serverless database & backend functions
 
@@ -12,8 +15,8 @@ Authentication and user management
 ### ✍️ Tiptap
 Rich text editor for flexible content editing. 
 
-### 🎨 shadcn/ui
-Beautiful, accessible components
+### 🌀 Zustand
+Lightweight state management for React
 
 ### ☁️ Vercel
 Deployment and hosting
