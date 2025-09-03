@@ -9,6 +9,9 @@ Serverless database & backend functions
 ### 🔐 Clerk
 Authentication and user management
 
+### ✍️ Tiptap
+Rich text editor for flexible content editing. 
+
 ### 🎨 shadcn/ui
 Beautiful, accessible components
 
