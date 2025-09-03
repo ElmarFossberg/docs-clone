@@ -1,12 +1,19 @@
 import React from "react";
+import Editor from "./editor";
+import Toolbar from "./toolbar";
 
 type DocumentIdPageProps = {
   params: Promise<{ documentId: string }>;
 };
 
-const page = async ({ params }: DocumentIdPageProps) => {
+const DocumentIdPage = async ({ params }: DocumentIdPageProps) => {
   const { documentId } = await params;
-  return <div>Document Id: {documentId}</div>;
+  return (
+    <div className="min-h-screen bg-antonio-white">
+      <Toolbar />
+      <Editor />
+    </div>
+  );
 };
 
-export default page;
+export default DocumentIdPage;
