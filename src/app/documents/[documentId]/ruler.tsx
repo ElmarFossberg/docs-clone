@@ -73,12 +73,9 @@ const DocumentRuler = () => {
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseLeave}
       onMouseLeave={handleMouseLeave}
-      className="h-6 mt-2 flex items-end relative select-none print:hidden"
+      className="h-6 mt-2 w-[816px] border-b border-gray-300 mx-auto flex items-end relative select-none print:hidden"
     >
-      <div
-        id="ruler-container"
-        className="max-w-[816px] border-b border-gray-300 mx-auto w-full h-full relative"
-      >
+      <div id="ruler-container" className="w-full h-full relative">
         <Marker
           position={leftMargin}
           isLeft={true}

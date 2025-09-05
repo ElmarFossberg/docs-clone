@@ -81,7 +81,7 @@ const Editor = () => {
       <div className="size-full overflow-x-auto bg-antonio-white px-4 print:p-0 print:bg-white print:overflow-visible">
         <DocumentRuler />
         <div className="min-w-max flex justify-center w-[816px] py-4 print:py-0 mx-auto print:w-full print:min-w-0">
-          <div className="w-full h-[1054px] bg-white opacity-60 border border-border rounded-md" />
+          <div className="w-full h-[1054px] bg-white opacity-40 border border-border rounded-md" />
         </div>
       </div>
     );
