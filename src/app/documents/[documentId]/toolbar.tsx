@@ -59,7 +59,7 @@ const ToolbarButton = ({
           <Icon className="size-4" />
         </button>
       </TooltipTrigger>
-      <TooltipContent>
+      <TooltipContent side="bottom">
         <p>{label}</p>
       </TooltipContent>
     </Tooltip>

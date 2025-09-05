@@ -1,4 +1,4 @@
-# ⚡ Tech Stack
+# ⚡ Tech Stack & Dependencies
 
 ### 🚀 Next.js (TypeScript)
 Framework powering the app
@@ -17,6 +17,9 @@ Rich text editor for flexible content editing.
 
 ### 🌀 Zustand
 Lightweight state management for React
+
+### 🕰 Nuqs
+Type-safe search params state manager for React frameworks
 
 ### ☁️ Vercel
 Deployment and hosting

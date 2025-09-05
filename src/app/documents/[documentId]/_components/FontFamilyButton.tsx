@@ -19,6 +19,7 @@ const FontFamilyButton = () => {
   const { editor } = useEditorStore();
   // TODO: Add custom fonts
   const fonts: Font[] = [
+    { label: "Inter", value: "Inter" },
     { label: "Arial", value: "Arial" },
     { label: "Comic Sans", value: "Comic Sans" },
     { label: "Courier New", value: "Courier New" },
@@ -27,7 +28,6 @@ const FontFamilyButton = () => {
     { label: "Exo 2", value: "Exo 2" },
     { label: "Georgia", value: "Georgia" },
     { label: "Impact", value: "Impact" },
-    { label: "Inter", value: "Inter" },
     { label: "Monospace", value: "Monospace" },
     { label: "Serif", value: "Serif" },
     { label: "Tahoma", value: "Tahoma" },
@@ -41,7 +41,7 @@ const FontFamilyButton = () => {
       <DropdownMenuTrigger asChild>
         <button className="h-7 w-[120px] shrink-0 flex items-center justify-between rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
           <span className="truncate">
-            {editor?.getAttributes("textStyle").fontFamily || "Arial"}
+            {editor?.getAttributes("textStyle").fontFamily || "Inter"}
           </span>
           <ChevronDownIcon className="ml-2 size-4 shrink-0" />
         </button>
