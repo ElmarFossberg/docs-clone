@@ -71,7 +71,7 @@ const FontSizeButton = () => {
         onChange={handleChange}
         onBlur={handleBlur}
         onKeyDown={handleKeyDown}
-        className="h-7 w-10 text-sm text-center border border-neutral-400 rounded-sm bg-transparent focus:outline-none focus:ring-0"
+        className="h-7 w-10 text-xs text-center border border-neutral-400 rounded-sm bg-transparent focus:outline-none focus:ring-0"
       />
 
       <button
