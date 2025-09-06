@@ -40,6 +40,7 @@ import {
 import { BsBlockquoteLeft, BsFilePdf } from "react-icons/bs";
 import { getOSFromUA } from "@/lib/utils";
 import { useEditorStore } from "@/store/use-editor-store";
+import { UserButton } from "@clerk/nextjs";
 
 const NavBar = () => {
   // Check Operating System
@@ -94,18 +95,18 @@ const NavBar = () => {
   // TODO: onSavePdf (insted of print)
 
   return (
-    <header>
-      <nav className="flex items-center justify-between">
+    <header className="mt-0.5">
+      <nav className="flex items-center justify-between px-4">
         <div className="flex gap-2 items-center">
           <Link href={"/"}>
-            <Image src="/logo.svg" alt="Logo" width={36} height={46} />
+            <Image src="/logo.svg" alt="Logo" width={32} height={32} />
           </Link>
           <div className="flex flex-col">
             <DocumentInput />
             <div className="flex">
               <Menubar className="border-none bg-transparent shadow-none h-auto p-0">
                 <MenubarMenu>
-                  <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
+                  <MenubarTrigger className="text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
                     File
                   </MenubarTrigger>
                   <MenubarContent className="print:hidden">
@@ -157,7 +158,7 @@ const NavBar = () => {
                   </MenubarContent>
                 </MenubarMenu>
                 <MenubarMenu>
-                  <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
+                  <MenubarTrigger className="text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
                     Edit
                   </MenubarTrigger>
                   <MenubarContent>
@@ -178,7 +179,7 @@ const NavBar = () => {
                   </MenubarContent>
                 </MenubarMenu>
                 <MenubarMenu>
-                  <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
+                  <MenubarTrigger className="text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
                     Insert
                   </MenubarTrigger>
                   <MenubarContent>
@@ -210,7 +211,7 @@ const NavBar = () => {
                   </MenubarContent>
                 </MenubarMenu>
                 <MenubarMenu>
-                  <MenubarTrigger className="text-sm font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
+                  <MenubarTrigger className="text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto">
                     Format
                   </MenubarTrigger>
                   <MenubarContent>
@@ -287,9 +288,19 @@ const NavBar = () => {
                     </MenubarItem>
                   </MenubarContent>
                 </MenubarMenu>
+                <Link
+                  href={"https://github.com/ElmarFossberg/docs-clone"}
+                  target="_blank"
+                  className="text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto"
+                >
+                  Github
+                </Link>
               </Menubar>
             </div>
           </div>
+        </div>
+        <div className="flex gap-3 items-center pl-6">
+          <UserButton />
         </div>
       </nav>
     </header>

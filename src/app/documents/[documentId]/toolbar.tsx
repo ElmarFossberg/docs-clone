@@ -52,7 +52,7 @@ const ToolbarButton = ({
         <button
           onClick={onClick ?? (() => {})} // No-op if onClick is not provided
           className={cn(
-            "text-sm h-7 min-w-7 flex items-center justify-center rounded-sm hover:bg-neutral-200/80",
+            "text-xs h-7 min-w-7 flex items-center justify-center rounded-sm hover:bg-neutral-200/80",
             isActive && "bg-neutral-200/80"
           )}
         >
