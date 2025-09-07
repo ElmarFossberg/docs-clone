@@ -75,7 +75,7 @@ const Editor = ({ initialContent, id, content }: EditorProps) => {
       attributes: {
         // Has to be dynamic because of User Interaction
         style: `padding-left: ${leftMargin ?? LEFT_MARGIN_DEFAULT}px; padding-right: ${rightMargin ?? RIGHT_MARGIN_DEFAULT}px;`,
-        class: `focus:outline-none print:border-0 bg-white border border-border flex flex-col min-h-[1054px] w-[${PAGE_WIDTH}px] pt-10 pr-14 pb-10 cursor-text`,
+        class: `focus:outline-none print:border-0 bg-white border border-border flex flex-col min-h-[1054px] w-[${PAGE_WIDTH || 816}px] pt-10 pr-14 pb-10 cursor-text`,
       },
     },
     extensions: [
@@ -113,7 +113,7 @@ const Editor = ({ initialContent, id, content }: EditorProps) => {
           setRightMargin={setRightMargin}
         />
         <div
-          className={`min-w-max flex justify-center w-[${PAGE_WIDTH}px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
+          className={`min-w-max flex justify-center w-[${PAGE_WIDTH || 816}px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
         >
           <div className="w-full h-[1054px] bg-white opacity-40 border border-border rounded-md" />
         </div>
@@ -130,7 +130,7 @@ const Editor = ({ initialContent, id, content }: EditorProps) => {
         setRightMargin={setRightMargin}
       />
       <div
-        className={`min-w-max flex justify-center w-[${PAGE_WIDTH}px] h-[1056px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
+        className={`min-w-max flex justify-center w-[${PAGE_WIDTH || 816}px] h-[1056px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
       >
         <EditorContent editor={editor} />
       </div>
