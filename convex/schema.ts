@@ -5,6 +5,7 @@ export default defineSchema({
   documents: defineTable({
     title: v.string(),
     initialContent: v.optional(v.string()),
+    content: v.optional(v.string()),
     ownerId: v.string(),
     lastUpdated: v.string(),
   })

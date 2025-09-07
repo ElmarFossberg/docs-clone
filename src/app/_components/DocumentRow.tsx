@@ -23,7 +23,7 @@ const DocumentRow = ({ doc }: DocumentRowProps) => {
         setIsOpen(true);
       }}
     >
-      <TableCell className="w-[50px]">
+      <TableCell className="w-[45px]">
         <SiGoogledocs className="size-4 fill-blue-500" />
       </TableCell>
       <TableCell className="font-medium md:w-[45%] group-hover:underline ">

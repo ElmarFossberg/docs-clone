@@ -15,13 +15,20 @@ import { Id } from "../../../convex/_generated/dataModel";
 import { useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 type RemoveDialogProps = {
   documentId: Id<"documents">;
   children: React.ReactNode;
+  redirect?: boolean;
 };
 
-const RemoveDialog = ({ documentId, children }: RemoveDialogProps) => {
+const RemoveDialog = ({
+  documentId,
+  children,
+  redirect = false,
+}: RemoveDialogProps) => {
+  const router = useRouter();
   const [isRemoving, setIsRemoving] = useState(false);
   const deleteDocument = useMutation(api.documents.deleteDocument);
 
@@ -46,6 +53,7 @@ const RemoveDialog = ({ documentId, children }: RemoveDialogProps) => {
             onClick={(e) => {
               e.stopPropagation();
               setIsRemoving(true);
+              if (redirect) router.push("/");
               deleteDocument({ id: documentId }).finally(() =>
                 setIsRemoving(false)
               );

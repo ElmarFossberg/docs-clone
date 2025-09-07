@@ -1,4 +1,5 @@
 "use client";
+// TODO: Fix bug (if the user didn't style the text, the font size button doesn't update when the selection changes)
 
 import React, { useState, useEffect } from "react";
 import { useEditorStore } from "@/store/use-editor-store";
@@ -6,7 +7,7 @@ import { MinusIcon, PlusIcon } from "lucide-react";
 
 const FontSizeButton = () => {
   const { editor } = useEditorStore();
-  const [inputValue, setInputValue] = useState("16");
+  const [inputValue, setInputValue] = useState("14");
 
   // This is needed to update the input value when the selection changes
   useEffect(() => {
@@ -14,7 +15,7 @@ const FontSizeButton = () => {
 
     const updateFromSelection = () => {
       const fontSize =
-        editor.getAttributes("textStyle").fontSize?.replace("px", "") || "16";
+        editor.getAttributes("textStyle").fontSize?.replace("px", "") || "14";
       setInputValue(fontSize);
     };
 

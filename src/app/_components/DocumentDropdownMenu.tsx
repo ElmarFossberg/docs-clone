@@ -61,10 +61,9 @@ const DocumentDropdownMenu = ({
           <Link
             className="flex items-center gap-2"
             href={`/documents/${documentId}`}
-            target="_blank"
           >
             <ExternalLinkIcon className="size-4" />
-            Open in new tab
+            Open
           </Link>
         </DropdownMenuItem>
       </DropdownMenuContent>

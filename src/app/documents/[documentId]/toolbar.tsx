@@ -5,7 +5,6 @@ import {
   ItalicIcon,
   ListTodoIcon,
   LucideIcon,
-  MessageSquareIcon,
   PrinterIcon,
   Redo2Icon,
   RemoveFormatting,
@@ -32,6 +31,7 @@ import AlignButton from "./_components/AlignButton";
 import ListButton from "./_components/ListButton";
 import FontSizeButton from "./_components/FontSizeButton";
 import LineHeightButton from "./_components/LineHeightButton";
+import DogButton from "./_components/DogButton";
 
 type ToolbarItem = {
   label: string;
@@ -120,12 +120,6 @@ const Toolbar = () => {
     ],
     [
       {
-        label: "Comment",
-        icon: MessageSquareIcon,
-        isActive: false,
-        onClick: () => console.log("Comment clicked"),
-      },
-      {
         label: "List Todo",
         icon: ListTodoIcon,
         isActive: editor?.isActive("taskList"),
@@ -165,6 +159,8 @@ const Toolbar = () => {
       {easyToolbarItems[2].map((item) => (
         <ToolbarButton key={item.label} {...item} />
       ))}
+      <VerticalSeparator className="bg-neutral-300 " />
+      <DogButton />
     </div>
   );
 };

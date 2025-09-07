@@ -1,7 +1,9 @@
 "use client";
 
+import { LEFT_MARGIN_DEFAULT, RIGHT_MARGIN_DEFAULT } from "@/constants/margins";
 import React, { useRef, useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
+import { PAGE_WIDTH } from "@/constants/margins";
 
 const markers = Array.from({ length: 83 }, (_, i) => i);
 
@@ -13,12 +15,21 @@ type MarkerProps = {
   onDoubleClick: () => void;
 };
 
-const DocumentRuler = () => {
-  const pageWidth = 816;
+type DocumentRulerProps = {
+  leftMargin: number;
+  rightMargin: number;
+  setLeftMargin: (value: number) => void;
+  setRightMargin: (value: number) => void;
+};
+
+const DocumentRuler = ({
+  leftMargin,
+  rightMargin,
+  setLeftMargin,
+  setRightMargin,
+}: DocumentRulerProps) => {
   const minimumSpaceBetween = 100;
 
-  const [leftMargin, setLeftMargin] = useState(56);
-  const [rightMargin, setRightMargin] = useState(56);
   const [isDraggingLeft, setIsDraggingLeft] = useState(false);
   const [isDraggingRight, setIsDraggingRight] = useState(false);
 
@@ -37,20 +48,21 @@ const DocumentRuler = () => {
       if (container) {
         const containerRect = container.getBoundingClientRect();
         const relativeX = e.clientX - containerRect.left;
-        const rawPosition = Math.max(0, Math.min(pageWidth, relativeX));
+        const rawPosition = Math.max(0, Math.min(PAGE_WIDTH, relativeX));
         if (isDraggingLeft) {
-          const maxLeftPosition = pageWidth - rightMargin - minimumSpaceBetween;
+          const maxLeftPosition =
+            PAGE_WIDTH - rightMargin - minimumSpaceBetween;
           const newLeftPosition = Math.min(rawPosition, maxLeftPosition);
-          setLeftMargin(newLeftPosition); // TODO: Add store & snapping
+          setLeftMargin(newLeftPosition); // TODO: snapping?
         } else if (isDraggingRight) {
           const maxRightPosition =
-            pageWidth - (leftMargin + minimumSpaceBetween);
-          const newRightPosition = Math.max(pageWidth - rawPosition, 0);
+            PAGE_WIDTH - (leftMargin + minimumSpaceBetween);
+          const newRightPosition = Math.max(PAGE_WIDTH - rawPosition, 0);
           const constrainedRightPosition = Math.min(
             newRightPosition,
             maxRightPosition
           );
-          setRightMargin(constrainedRightPosition); // TODO: Add store & snapping
+          setRightMargin(constrainedRightPosition); // TODO: snapping?
         }
       }
     }
@@ -61,10 +73,10 @@ const DocumentRuler = () => {
     setIsDraggingRight(false);
   };
   const handleLeftDoubleClick = () => {
-    setLeftMargin(56);
+    setLeftMargin(LEFT_MARGIN_DEFAULT);
   };
   const handleRightDoubleClick = () => {
-    setRightMargin(56);
+    setRightMargin(RIGHT_MARGIN_DEFAULT);
   };
 
   return (
@@ -73,7 +85,7 @@ const DocumentRuler = () => {
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseLeave}
       onMouseLeave={handleMouseLeave}
-      className="h-6 mt-2 w-[816px] border-b border-gray-300 mx-auto flex items-end relative select-none print:hidden"
+      className={`h-6 mt-2 w-[${PAGE_WIDTH}px] border-b border-gray-300 mx-auto flex items-end relative select-none print:hidden`}
     >
       <div id="ruler-container" className="w-full h-full relative">
         <Marker
@@ -91,9 +103,9 @@ const DocumentRuler = () => {
           onDoubleClick={handleRightDoubleClick}
         />
         <div className="absolute inset-x-0 bottom-0 h-full">
-          <div className="relative h-full w-[816px]">
+          <div className={`relative h-full w-[${PAGE_WIDTH}px]`}>
             {markers.map((marker) => {
-              const position = (marker * pageWidth) / 82;
+              const position = (marker * PAGE_WIDTH) / 82;
               return (
                 <div
                   key={marker}

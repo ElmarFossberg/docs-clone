@@ -17,7 +17,6 @@ type Font = {
 
 const FontFamilyButton = () => {
   const { editor } = useEditorStore();
-  // TODO: Add custom fonts
   const fonts: Font[] = [
     { label: "Inter", value: "Inter" },
     { label: "Arial", value: "Arial" },
