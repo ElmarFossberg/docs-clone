@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -118,7 +119,7 @@
 
 @media print {
   @page {
-    margin: 0; /* remove default browser margins */
+    margin: 0;
   }
 
   body {
@@ -152,6 +153,7 @@ p {
   font-size: 0.875rem;
   margin-bottom: 0.125rem;
 }
+
 
 h1,
 h2,
@@ -213,14 +215,12 @@ h6 {
   ul,
   ol {
     padding: 0 1rem;
-    margin: 0.5rem 1rem 0.5rem 0.4rem;
+    margin: 0.0rem 0.0rem 0.0rem 0.4rem;
   }
 
   ul li {
     list-style-type: disc;
     p {
-      margin-top: 0.25em;
-      margin-bottom: 0.25em;
     }
   }
   ol li {

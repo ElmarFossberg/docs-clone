@@ -50,8 +50,9 @@ const TemplateGallery = () => {
                   <button
                     disabled={isCreating}
                     onClick={() =>
+                      !isCreating &&
                       onTemplateClick(template.label, template?.initialContent)
-                    } // TOOD: Add initial content
+                    }
                     style={{
                       backgroundImage: `url(${template.imageUrl})`,
                       backgroundSize: "cover",

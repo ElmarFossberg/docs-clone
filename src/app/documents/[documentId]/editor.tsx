@@ -18,11 +18,7 @@ import { useDebounce } from "@/hooks/use-debounce";
 import { useMutation } from "convex/react";
 import { api } from "../../../../convex/_generated/api";
 import { Id } from "../../../../convex/_generated/dataModel";
-import {
-  LEFT_MARGIN_DEFAULT,
-  RIGHT_MARGIN_DEFAULT,
-  PAGE_WIDTH,
-} from "@/constants/margins";
+import { LEFT_MARGIN_DEFAULT, RIGHT_MARGIN_DEFAULT } from "@/constants/margins";
 import Link from "@tiptap/extension-link";
 
 type EditorProps = {
@@ -75,7 +71,8 @@ const Editor = ({ initialContent, id, content }: EditorProps) => {
       attributes: {
         // Has to be dynamic because of User Interaction
         style: `padding-left: ${leftMargin ?? LEFT_MARGIN_DEFAULT}px; padding-right: ${rightMargin ?? RIGHT_MARGIN_DEFAULT}px;`,
-        class: `focus:outline-none print:border-0 bg-white border border-border flex flex-col min-h-[1054px] w-[816px] pt-10 pr-14 pb-10 cursor-text`,
+        class:
+          "focus:outline-none print:border-0 bg-white border border-border flex flex-col min-h-[1054px] w-[816px] pt-10 pr-14 pb-10 cursor-text",
       },
     },
     extensions: [
