@@ -19,7 +19,7 @@ const TemplateGallery = () => {
   const createDocument = useMutation(api.documents.createDocument);
   const [isCreating, setIsCreating] = useState(false);
 
-  const onTemplateClick = (title: string, initialContent: string) => {
+  const onTemplateClick = (title: string, initialContent?: string) => {
     setIsCreating(true);
     createDocument({ title, initialContent })
       .then((documentId) => {
@@ -49,7 +49,9 @@ const TemplateGallery = () => {
                 >
                   <button
                     disabled={isCreating}
-                    onClick={() => onTemplateClick(template.label, "")} // TOOD: Add initial content
+                    onClick={() =>
+                      onTemplateClick(template.label, template?.initialContent)
+                    } // TOOD: Add initial content
                     style={{
                       backgroundImage: `url(${template.imageUrl})`,
                       backgroundSize: "cover",

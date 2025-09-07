@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 // Tiptap
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
@@ -10,17 +10,40 @@ import { TextStyleKit } from "@tiptap/extension-text-style";
 import TextAlign from "@tiptap/extension-text-align";
 import ImageResize from "tiptap-extension-resize-image";
 import Highlight from "@tiptap/extension-highlight";
-import Link from "@tiptap/extension-link";
 
 // Zustand
 import { useEditorStore } from "@/store/use-editor-store";
 import DocumentRuler from "./ruler";
+import { useDebounce } from "@/hooks/use-debounce";
+import { useMutation } from "convex/react";
+import { api } from "../../../../convex/_generated/api";
+import { Id } from "../../../../convex/_generated/dataModel";
+import {
+  LEFT_MARGIN_DEFAULT,
+  RIGHT_MARGIN_DEFAULT,
+  PAGE_WIDTH,
+} from "@/constants/margins";
+import Link from "@tiptap/extension-link";
 
-const Editor = () => {
-  const { setEditor } = useEditorStore();
+type EditorProps = {
+  initialContent?: string | undefined;
+  id: Id<"documents">;
+  content?: string | undefined;
+};
+
+const Editor = ({ initialContent, id, content }: EditorProps) => {
+  const [leftMargin, setLeftMargin] = useState(LEFT_MARGIN_DEFAULT);
+  const [rightMargin, setRightMargin] = useState(RIGHT_MARGIN_DEFAULT);
+
+  const { setEditor, setContent } = useEditorStore();
+  const updateDocumentContent = useMutation(api.documents.updateDocumentConent);
+
+  const debouncedSave = useDebounce(() => {
+    const html = useEditorStore.getState().content;
+    updateDocumentContent({ id, content: html });
+  }, 2000);
+
   const editor = useEditor({
-    // Connecting the editor to our global variable (our store (Zustand))
-    /* Might be bad practise (if performance issues we can store just the editor content insted of the editor itself or use another approach)*/
     onCreate: ({ editor }) => {
       setEditor(editor);
     },
@@ -29,6 +52,9 @@ const Editor = () => {
     },
     onUpdate({ editor }) {
       setEditor(editor);
+      const html = editor.getHTML();
+      setContent(html);
+      debouncedSave();
     },
     onSelectionUpdate({ editor }) {
       setEditor(editor);
@@ -48,9 +74,8 @@ const Editor = () => {
     editorProps: {
       attributes: {
         // Has to be dynamic because of User Interaction
-        style: "padding-left: 56px; padding-right: 56px;",
-        class:
-          "focus:outline-none print:border-0 bg-white border border-border flex flex-col min-h-[1054px] w-[816px] pt-10 pr-14 pb-10 cursor-text",
+        style: `padding-left: ${leftMargin ?? LEFT_MARGIN_DEFAULT}px; padding-right: ${rightMargin ?? RIGHT_MARGIN_DEFAULT}px;`,
+        class: `focus:outline-none print:border-0 bg-white border border-border flex flex-col min-h-[1054px] w-[${PAGE_WIDTH}px] pt-10 pr-14 pb-10 cursor-text`,
       },
     },
     extensions: [
@@ -72,6 +97,8 @@ const Editor = () => {
       }),
       Highlight.configure({ multicolor: true }),
     ],
+
+    content: content ?? initialContent ?? "",
     // Don't render immediately on the server to avoid SSR issues
     immediatelyRender: false,
   });
@@ -79,8 +106,15 @@ const Editor = () => {
   if (!editor) {
     return (
       <div className="size-full overflow-x-auto bg-antonio-white px-4 print:p-0 print:bg-white print:overflow-visible">
-        <DocumentRuler />
-        <div className="min-w-max flex justify-center w-[816px] py-4 print:py-0 mx-auto print:w-full print:min-w-0">
+        <DocumentRuler
+          leftMargin={leftMargin}
+          setLeftMargin={setLeftMargin}
+          rightMargin={rightMargin}
+          setRightMargin={setRightMargin}
+        />
+        <div
+          className={`min-w-max flex justify-center w-[${PAGE_WIDTH}px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
+        >
           <div className="w-full h-[1054px] bg-white opacity-40 border border-border rounded-md" />
         </div>
       </div>
@@ -89,8 +123,15 @@ const Editor = () => {
 
   return (
     <div className="size-full overflow-x-auto bg-antonio-white px-4 print:p-0 print:bg-white print:overflow-visible">
-      <DocumentRuler />
-      <div className="min-w-max flex justify-center w-[816px] py-4 print:py-0 mx-auto print:w-full print:min-w-0">
+      <DocumentRuler
+        leftMargin={leftMargin}
+        setLeftMargin={setLeftMargin}
+        rightMargin={rightMargin}
+        setRightMargin={setRightMargin}
+      />
+      <div
+        className={`min-w-max flex justify-center w-[${PAGE_WIDTH}px] h-[1056px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
+      >
         <EditorContent editor={editor} />
       </div>
     </div>

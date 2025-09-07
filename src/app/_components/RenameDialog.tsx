@@ -3,7 +3,7 @@
 import { Id } from "../../../convex/_generated/dataModel";
 import { useMutation } from "convex/react";
 import { api } from "../../../convex/_generated/api";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   Dialog,
   DialogContent,
@@ -27,7 +27,7 @@ const RenameDialog = ({
   initialTitle,
   children,
 }: RenameDialogProps) => {
-  const [isUpdating, setIsUpdating] = useState(false);
+  const [, setIsUpdating] = useState(false);
   const [title, setTitle] = useState(initialTitle);
   const [isOpen, setIsOpen] = useState(false);
 

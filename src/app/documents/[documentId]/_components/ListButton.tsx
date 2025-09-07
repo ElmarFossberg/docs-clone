@@ -1,21 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
 import { useEditorStore } from "@/store/use-editor-store";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { ListIcon, ListOrderedIcon, LucideIcon } from "lucide-react";
+import { ListIcon, ListOrderedIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-type List = {
-  label: string;
-  icon: LucideIcon;
-  isActive: () => boolean;
-  onClick: () => void;
-};
 
 const ListButton = () => {
   const { editor } = useEditorStore();

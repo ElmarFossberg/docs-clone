@@ -8,7 +8,7 @@ import React, { useRef, useState } from "react";
 
 const SearchInput = () => {
   const [value, setValue] = useState("");
-  const [search, setSearch] = useSearchParam();
+  const [, setSearch] = useSearchParam();
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

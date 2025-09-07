@@ -1,0 +1,731 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="612" height="792" viewBox="0 0 612 792">
+<defs>
+<clipPath id="clip_0">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_5">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_6">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_7">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_8">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_9">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_10">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_11">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_12">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_13">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_14">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_15">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_16">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_17">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_18">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_19">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_20">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_21">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_22">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_23">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_24">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_25">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_26">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_27">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_28">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_29">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_30">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_31">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_32">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_33">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_34">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_35">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_36">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_37">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_38">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_39">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_40">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_41">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_42">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_43">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_44">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_45">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_46">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_47">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_48">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_49">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_50">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_51">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_52">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_53">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_54">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_55">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_56">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_57">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_58">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_59">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_60">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_61">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_62">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_63">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_64">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_65">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_66">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_67">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_68">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_69">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_70">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_71">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_72">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_73">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_74">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_75">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_76">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_77">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_78">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_79">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_80">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_81">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_82">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_83">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_84">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_85">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_86">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_87">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_88">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_89">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_90">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_91">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_92">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_93">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_94">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_95">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_96">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_97">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_98">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_99">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_100">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_101">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_102">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_103">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_104">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_105">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_106">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_107">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_108">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_109">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_110">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_111">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_112">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_113">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_114">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_115">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_116">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_117">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_118">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_119">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+<clipPath id="clip_120">
+<path transform="matrix(1,0,0,-1,0,792)" d="M.00000912 0H612V792H.00000912Z" clip-rule="evenodd"/>
+</clipPath>
+</defs>
+<g>
+<g clip-path="url(#clip_0)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="ArialMT"><tspan y="-781.75" x="72.025"> </tspan></text>
+</g>
+<g clip-path="url(#clip_1)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="ArialMT"><tspan y="-18.5" x="72.025"> </tspan></text>
+</g>
+<g clip-path="url(#clip_2)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="20" font-family="ArialMT"><tspan y="-701.22" x="184.33 197.59 202.03 218.81 230.04999 236.79 242.34999 254.29 265.53 275.53 285.53 296.53 307.77 314.50999 325.74998 331.30998 345.48997 356.72996 367.72996 378.96995 385.70994 395.70994 405.46995 416.70994">Elmar Fossberg R&#x00fa;narsson</tspan></text>
+</g>
+<g clip-path="url(#clip_3)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-701.22" x="427.92"> </tspan></text>
+</g>
+<g clip-path="url(#clip_4)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-687.47" x="202.33 207.83 210.05 218.33 223.83 227.08 230.57 236.07 241.57 247.07 250.32 255.32 260.56 266.06 271.56 281.8 287.3 295.55 301.05 303.27 305.53999 308.31999 313.28999 319.02998 327.27998 330.05998 332.52998 335.51997 338.76997 344.51997 350.25996 355.75996 361.25996 364.50996 367.28996 372.99995 378.49995">elmarrunarsson@gmail.com | (+354) 696</tspan></text>
+</g>
+<g clip-path="url(#clip_5)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-687.47" x="384.15">-</tspan></text>
+</g>
+<g clip-path="url(#clip_6)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-687.47" x="387.65 393.15 398.65 404.15 409.65">2282 </tspan></text>
+</g>
+<g clip-path="url(#clip_7)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="20" font-family="ArialMT"><tspan y="-687.47" x="412.68"> </tspan></text>
+</g>
+<g clip-path="url(#clip_8)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-662.2" x="72.025 80.761 91.501 94.753 105.493 108.744998">Um mig</tspan></text>
+</g>
+<g clip-path="url(#clip_9)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-662.2" x="116.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_10)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-638.2" x="72.025 78.765 84.265 87.045 92.515 95.765 98.545 104.015 109.515 112.505 118.005 121.255 126.755 129.535 135.245 140.745 148.995 154.495 156.715 158.985 161.765 167.47499 172.97499 177.97499 182.97499 188.47499 190.69499 196.22499 201.96498 207.46498 215.71498">&#x00c9;g er 20 &#x00e1;ra gamall h&#x00e1;sk&#x00f3;lanemi</tspan></text>
+</g>
+<g clip-path="url(#clip_11)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-638.2" x="218.1"> </tspan></text>
+</g>
+<g clip-path="url(#clip_12)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-638.2" x="220.85 223.63 226.35 233.59001">&#x00ed; HR</tspan></text>
+</g>
+<g clip-path="url(#clip_13)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-638.2" x="240.85"> </tspan></text>
+</g>
+<g clip-path="url(#clip_14)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-638.2" x="243.6 249.1 254.84 257.62 263.09 268.59 271.37 274.33 279.83 284.83 287.06999 292.56999 297.56999 299.80998 305.30998 308.08998 313.55998 319.29997 322.78996 328.28996 331.06996 336.53996 339.78996 342.00996 344.78996 347.53996 350.31996 355.28996 357.50996 363.03996 368.03996 373.03996 375.27995 381.01994 383.79994 389.26994 392.04994 395.26994 404.25996 409.75996 411.97996 414.75996 423.24995 428.74995 434.24995 437.02995 439.74995 445.24995 447.46995 452.48994 458.22993 463.72993 469.22993 472.47993 475.4699 478.7199 487.70994 493.20994 495.42994 498.20994 503.20994 508.70994 516.9599">og hef n&#x00fd;loki&#x00f0; &#x00f6;&#x00f0;ru &#x00e1;ri &#x00ed; vi&#x00f0;skiptafr&#x00e6;&#x00f0;i me&#x00f0; t&#x00f6;lvunarfr&#x00e6;&#x00f0;i sem </tspan></text>
+</g>
+<g clip-path="url(#clip_15)">
+</g>
+<g clip-path="url(#clip_16)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-626.7" x="72.025 77.525 83.025 88.025 93.525 99.025 102.51501 108.01501 110.23501 115.76501 118.545009 121.26501 128.005 133.505 136.285 141.995 145.245 148.025 153.495 158.995 164.73499 170.23499 175.73499 180.73499 186.23499 194.72499 200.22499 203.47499 206.25499 211.96498 217.46498 220.24498 225.21498 230.71498 238.96498 243.96498 246.20499 251.20499 256.205 261.705 266.94499 272.44499 280.69499 286.43498 289.68498 292.46498 297.93498 303.43498 311.68498 316.92497 325.41496 330.91496 336.41496 341.91496 345.16496 347.94496 352.91496 358.65495 366.90495 369.68495 375.15495 380.65495">aukagrein. &#x00c9;g er &#x00e1;hugasamur og samviskusamur n&#x00e1;msma&#x00f0;ur sem hef</tspan></text>
+</g>
+<g clip-path="url(#clip_17)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-626.7" x="383.9 389.4">ur</tspan></text>
+</g>
+<g clip-path="url(#clip_18)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-626.7" x="392.67"> </tspan></text>
+</g>
+<g clip-path="url(#clip_19)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-626.7" x="395.42 400.92 403.14 405.41 408.4 413.9 416.68 419.4 424.9 430.4 433.18 436.13999 438.91999 444.38999 449.88999 458.37998 463.87998 469.37998 472.15998 477.62998 480.40998 483.36997 488.86997 493.86997 496.61997 499.39997 504.86997 510.60997 513.38998 515.6099 524.5999 527.8499">alltaf haft gaman af &#x00fe;v&#x00ed; a&#x00f0; l&#x00e6;ra</tspan></text>
+</g>
+<g clip-path="url(#clip_20)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-626.7" x="533.48"> </tspan></text>
+</g>
+<g clip-path="url(#clip_21)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-615.2" x="72.025 77.525 82.525 84.765 90.265 93.045 98.515 100.735 106.265 109.045 111.265 114.015">n&#x00fd;ja hluti. </tspan></text>
+</g>
+<g clip-path="url(#clip_22)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-615.2" x="116.8 124.04 129.54001 131.76001 136.78002 139.56002 145.27 148.05 153.02 155.8 160.77 164.02 169.02 171.26001 176.76001 178.98001 184.00002 189.74 192.99 195.77 203.99 206.77 212.24 214.73001 217.98001 220.76001 226.23001 229.72002 235.22002 238.00002 246.22002 248.44002 253.97002 259.47004 262.46003 267.96003 273.46003 278.96003 281.74003 284.7 290.2 292.42 297.44 302.94 307.94 313.44 319.18 324.91999 330.41999 333.19999 335.91999 341.41999 344.19999 346.91999 351.91999 354.66999 360.40998 365.90998 371.40998 376.40998 379.15998 384.15998 386.39997 389.17997 394.64997 400.38996 403.16996 411.38996 413.60997 418.62995 420.84996 423.11994 425.33995 428.11994 436.36994 441.86994 444.64994 450.35993 455.85993 461.35993 466.85993 470.3499 473.1299 475.8499 482.58995 488.08995 490.86994 496.33995 499.58995">Helstu styrkleikar m&#x00ed;nir eru mj&#x00f6;g g&#x00f3;&#x00f0; t&#x00f6;lvukunn&#x00e1;tta, stundv&#x00ed;si og mikill metna&#x00f0;ur. &#x00c9;g er </tspan></text>
+</g>
+<g clip-path="url(#clip_23)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-603.7" x="72.025 74.245 79.775 84.775 89.775 98.765 104.265 109.765 113.015 115.795 121.265 126.765 129.545 132.50499 138.00499 140.22499 145.75499 151.25499 156.25499 158.495 163.495 168.995 174.73499 180.23499 183.48499 186.26499 191.73499 193.95499 199.48499 204.72499 207.50499 212.97499 217.97499 220.215 222.435 227.965 233.465 239.20499 242.45499 245.23499 253.45499 259.19499 264.69499 267.47499 270.69499 276.19499 281.19499 286.69499 291.69499 294.18498 299.68498 302.46498 307.93498 311.18498 313.96498 316.92497 322.42497 324.91496 330.41496 335.91496 340.91496 345.91496 348.66496 354.16496 357.41496 360.40495 365.90495 374.15495 376.93495 379.65495 388.14494 393.64494 399.14494 404.64494 406.86494 409.64494 415.38493 420.88493 426.38493 431.88493 435.13493 440.3749 443.1549 448.1249 453.6249 461.8749 464.6549 467.6149 473.1149 476.3649 484.6149 490.3549 495.8549 501.3549 504.6049">j&#x00e1;kv&#x00e6;&#x00f0;ur og f&#x00e9;lagslyndur einstaklingur me&#x00f0; reynslu &#x00fa;r f&#x00e9;lagsst&#x00f6;rfum, me&#x00f0;al annars sem forma&#x00f0;ur </tspan></text>
+</g>
+<g clip-path="url(#clip_24)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-592.17" x="72.025 74.805 80.275 82.495 88.025 93.525 98.525 104.025 109.525 112.515 118.015 123.515 129.015 132.505 135.285 138.005 140.785 147.495 152.995 156.245 161.245 163.485 168.985 174.72499 180.22499 183.47499 188.47499 193.47499 198.97499 201.19499 206.965 212.465 217.965 226.215">f&#x00e9;lagsnefndar &#x00ed; Verzlunarsk&#x00f3;lanum.</tspan></text>
+</g>
+<g clip-path="url(#clip_25)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-592.17" x="229.35"> </tspan></text>
+</g>
+<g clip-path="url(#clip_26)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-566.92" x="72.025 80.761 91.501 95.497 102.745">H&#x00e6;fni</tspan></text>
+</g>
+<g clip-path="url(#clip_27)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-566.92" x="106.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_28)">
+<path transform="matrix(1,0,0,-1,0,792)" d="M70.525 561.92H541.72506V562.42H70.525Z" fill="#666666" fill-rule="evenodd"/>
+</g>
+<g clip-path="url(#clip_29)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="78.025 84.025 86.245 88.51501 94.01501 96.795009 102.26501 105.51501 108.295009 114.005008 119.505008 122.285 124.505008 133.49501 136.74501 142.24501 145.02501 147.49501 150.27501 156.985 159.205 164.975 170.475 175.975 180.975 183.725 189.225 191.445 197.21501 202.71501 208.21501 210.99501 213.46501 216.45502 224.70502 230.20502 235.70502 241.20502 243.69503 249.19503 254.69503 257.47505 262.44505 268.18504 276.43504 281.43504 286.43504 288.67503 294.17503 296.95503">Flj&#x00f3;tur a&#x00f0; l&#x00e6;ra | &#x00de;j&#x00f3;nustulund | Mannleg samskipti</tspan></text>
+</g>
+<g clip-path="url(#clip_30)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="299.38"> </tspan></text>
+</g>
+<g clip-path="url(#clip_31)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="302.13 304.63">| </tspan></text>
+</g>
+<g clip-path="url(#clip_32)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="307.38 314.12004 319.12004 324.62004 330.36003 335.86003 341.36003 346.86003 350.11003 355.85 361.35 364.13 369.6">Sk&#x00f6;punarg&#x00e1;fa </tspan></text>
+</g>
+<g clip-path="url(#clip_33)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="372.4 375.15">| </tspan></text>
+</g>
+<g clip-path="url(#clip_34)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="377.9 384.64 386.86003 392.39 394.61003 397.39 402.39 405.14 408.39 413.89 419.39 424.39 427.14">Sj&#x00e1;lfstraust </tspan></text>
+</g>
+<g clip-path="url(#clip_35)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="430.17 432.67 435.45 442.16004 444.94004 450.41004 456.15003 461.65003 466.65003 469.40003 474.40003 476.64 479.42 481.89 484.67 491.38005 493.60005 499.13005 501.35005 504.13005 509.13005 511.88005 520.87 526.37 528.58999 531.37">| Stundv&#x00ed;si | Sj&#x00e1;lfst&#x00e6;&#x00f0;i |</tspan></text>
+</g>
+<g clip-path="url(#clip_36)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-546.42" x="533.97"> </tspan></text>
+</g>
+<g clip-path="url(#clip_37)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="117.8 124.54 130.04001 135.54001 141.04001 146.04001 148.28002 151.53002 156.53002 162.03002">Vandvirkni</tspan></text>
+</g>
+<g clip-path="url(#clip_38)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="164.33"> </tspan></text>
+</g>
+<g clip-path="url(#clip_39)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="167.08 169.58 172.36 179.06999 184.56999 186.79 189.06 194.79999 203.04999 212.04 217.54 219.76 222.54 225.04 227.81999 234.03 239.53 244.53 252.78 255 260.02 265.02 267.25999 272.75999 278.25999 283.99998 286.77998 289.24998 292.02998 297.73997 303.23997 308.23997 313.23997 318.73997 321.51997 326.48997 331.98997 337.72996 343.22996 348.72996 356.97996 362.47996 364.69996 367.71995">| &#x00de;olinm&#x00e6;&#x00f0;i | Teymisvinna | Leysa vandam&#x00e1;l |</tspan></text>
+</g>
+<g clip-path="url(#clip_40)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="370.4"> </tspan></text>
+</g>
+<g clip-path="url(#clip_41)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="373.4 381.65 387.15 389.93 395.4 400.9 406.63999 412.13999">Metna&#x00f0;ur</tspan></text>
+</g>
+<g clip-path="url(#clip_42)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="415.42"> </tspan></text>
+</g>
+<g clip-path="url(#clip_43)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="418.18">|</tspan></text>
+</g>
+<g clip-path="url(#clip_44)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="420.92"> </tspan></text>
+</g>
+<g clip-path="url(#clip_45)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="423.68 430.42 432.64 434.91 439.91 444.91 449.91 455.41 460.41 463.16 465.94 471.41 474.66 477.91 480.13 483.15 488.65">Allskyns forritun</tspan></text>
+</g>
+<g clip-path="url(#clip_46)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-534.92" x="494.45"> </tspan></text>
+</g>
+<g clip-path="url(#clip_47)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-509.65" x="72.025 80.761 87.505 94.009 101.257 108.001 111.253">Reynsla</tspan></text>
+</g>
+<g clip-path="url(#clip_48)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-509.65" x="118.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_49)">
+<path transform="matrix(1,0,0,-1,0,792)" d="M70.525 504.4H541.72506V504.9H70.525Z" fill="#666666" fill-rule="evenodd"/>
+</g>
+<g clip-path="url(#clip_50)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="Arial" font-weight="bold"><tspan y="-487.9" x="72.025 81.26501 87.98601 91.75901 95.499019 102.000019 108.237018 114.958019 118.73102 125.45202 128.51003 131.48003 135.22002 139.49903 146.22002">M&#x00f3;tt&#x00f6;kufulltr&#x00fa;i</tspan></text>
+</g>
+<g clip-path="url(#clip_51)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="Arial" font-weight="bold"><tspan y="-487.9" x="149.08"> </tspan></text>
+</g>
+<g clip-path="url(#clip_52)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-472.4" x="72.025 79.265 84.765 86.985 92.005 97.505 99.725 104.744998 107.524997 112.994998 115.774997 121.244998 124.024997 130.73499 136.23499 141.73499 146.73499 152.47498 157.97498 163.47498 168.97498 171.96498 174.46498 177.24498 182.71498 188.21498 193.95497">Reiknistofa Bankanna | 2025</tspan></text>
+</g>
+<g clip-path="url(#clip_53)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-472.4" x="199.83"> </tspan></text>
+</g>
+<g clip-path="url(#clip_54)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-453.15" x="72.025 74.805 77.525 85.775 88.555 94.025 99.525 102.305 107.275 110.265 115.765 119.015 121.795 124.015 126.765 129.545 135.015 140.255 143.035 148.505 154.005 156.785 162.255 165.24501 173.49501 178.99501 181.77501 183.99501 186.74501 191.74501 197.485 202.985 208.485 210.705 216.235 221.97499 227.47499 235.72499 238.50499 241.22499 246.22499 251.22499 253.465 258.965 264.465 266.955 272.455 277.955 283.455 286.44499 289.69499 295.19499 300.69499 303.47499 308.94499 311.93498 314.71498 319.68498 322.93498 325.42497 328.67497 331.45497 336.92497 339.70497 341.92497 346.92497 349.67497 351.89497 357.42497 360.67497 366.41496 371.91496 377.41496 380.19496 385.66496 390.66496 395.90495 401.40495 404.65495 407.43495 413.14494 418.64494 421.42494 426.89494 432.39494 435.88493 438.66493 444.13493 449.63493 454.63493 458.1249 463.6249 469.1249 471.9049 477.3749 480.3649 485.8649 491.3649 494.1449 499.1149 504.6149 506.8349 509.6149 515.3549">&#x00cd; m&#x00ed;nu starfi tek &#x00e9;g &#x00e1; m&#x00f3;ti sendingum, skipulegg r&#x00fa;nta fyrir b&#x00ed;lstj&#x00f3;rana okkar og ber &#x00e1;byrg&#x00f0; &#x00e1; a&#x00f0; veita </tspan></text>
+</g>
+<g clip-path="url(#clip_55)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-439.9" x="72.025 77.025 79.265 84.765 90.265 92.485 98.015 103.515 109.015 114.515 116.735 119.515 125.255 130.755 132.975 135.24501 140.74501 148.99501 151.77501 157.485 162.985 168.485 173.985 179.72499 185.22499 188.00499 193.47499 198.97499 201.965 207.465 212.965 217.965 220.205 225.705 231.205 233.985 236.705 239.195 244.695 247.475 252.945 257.945 263.445 265.665 268.445 274.185 276.965 285.185 290.685 296.425 301.925 307.425 310.205 315.675 321.41499 324.19499 327.15498 332.65498 334.87498 340.40498 343.18498 348.15498 353.65498 361.90498 364.68498 367.64497 375.89497 378.11497 383.13496 385.91496 390.88496 393.10496 398.63496 401.41496 404.13496 409.13496 414.63496 417.62495 423.12495 425.90495 428.12495 433.12495 435.87495 438.09495 443.62495 446.87495 452.37495 455.36494 458.14494 460.86494 465.86494 468.10493 470.88493 473.60493 479.10493 484.10493 489.8449 493.0949 498.5949">vi&#x00f0;eigandi a&#x00f0;ilum a&#x00f0;gang a&#x00f0; h&#x00fa;sinu, jafnvel &#x00e1; me&#x00f0;an &#x00e9;g tala samt&#x00ed;mis vi&#x00f0; tvo b&#x00ed;lstj&#x00f3;ra &#x00ed; sitthvoru </tspan></text>
+</g>
+<g clip-path="url(#clip_56)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-426.63" x="72.025 77.525 83.025 88.025 91.275 96.775 102.515 105.765 108.545 114.015 116.235 118.505008 124.005008 129.505 132.49501 137.99501 143.49501 146.27501 151.24501 154.02501 162.24501 164.73502 170.23502 175.73502">heyrnart&#x00f3;linu og s&#x00ed;minn </tspan></text>
+</g>
+<g clip-path="url(#clip_57)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-426.63" x="178.58 184.08 187.57 190.35 195.82 199.07 201.29001 207.06002 212.56002 214.78002 220.31002 225.81002 231.31002 233.53002 236.31002">er hringjandi. </tspan></text>
+</g>
+<g clip-path="url(#clip_58)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-426.63" x="239.35"> </tspan></text>
+</g>
+<g clip-path="url(#clip_59)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="Arial" font-weight="bold"><tspan y="-407.38" x="72.025 78.025 87.015 91.005 97.005 103.005 111.994998 117.994998 121.98499 124.76499 130.73499 134.72499 137.50499 142.97499 146.22499 151.72499 155.715 158.965">L&#x00e6;rd&#x00f3;mur &#x00fa;r starfi</tspan></text>
+</g>
+<g clip-path="url(#clip_60)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-407.38" x="162.08"> </tspan></text>
+</g>
+<g clip-path="url(#clip_61)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-388.13" x="90.05">&#x25cf;</tspan></text>
+</g>
+<g clip-path="url(#clip_62)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-388.13" x="96.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_63)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-388.13" x="108.05 116.3 118.520008 123.54 125.76 128.03 133.03 142.02 147.52 149.74 152.52 157.52 160.27 162.49 165.77 170.77 175.77 181.27 184.05 189.52 195.02 197.8 203.27 212.26001 220.51001 226.01001 228.23001 231.01001 236.25002 244.50002 250.00002 255.50002 258.49003 261.74003 263.96003 269.49003">Mikilv&#x00e6;gi yfirs&#x00fd;n og n&#x00e6;mni sm&#x00e1;atri&#x00f0;a</tspan></text>
+</g>
+<g clip-path="url(#clip_64)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-388.13" x="275.38"> </tspan></text>
+</g>
+<g clip-path="url(#clip_65)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-374.88" x="90.05">&#x25cf;</tspan></text>
+</g>
+<g clip-path="url(#clip_66)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-374.88" x="96.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_67)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-374.88" x="108.05 114.79 120.29 123.07 125.79 131.29001 136.29001 141.79001 146.79001 149.54001 152.32 157.79001 160.57 166.04001 168.53002 174.03002 179.53002 182.31002 190.77002 196.27002 201.77002 204.55002 209.52002 212.30002 214.52002 217.77002 222.77002 228.51001 234.01001 239.51001 245.01001 248.00002 253.50002 259.00004 261.78004 264.50004 270.24003 273.49003 278.99003 284.49003 290.23 295.73 300.73 303.98 309.48 315.22 320.72 323.5 328.47 333.97 337.22 342.46 347.96 350.74 356.21">A&#x00f0; takast &#x00e1; &#x00e1;lag me&#x00f0; yfirvegun og forgangsra&#x00f0;a verkefni</tspan></text>
+</g>
+<g clip-path="url(#clip_68)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-374.88" x="358.9"> </tspan></text>
+</g>
+<g clip-path="url(#clip_69)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="ArialMT"><tspan y="-361.13" x="72.025"> </tspan></text>
+</g>
+<g clip-path="url(#clip_70)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="Arial" font-weight="bold"><tspan y="-342.1" x="72.025 81.26501 87.98601 91.75901 95.499019 102.000019 108.237018 114.958019 118.73102 125.45202 128.51003 131.48003 135.22002 139.49903 146.22002">M&#x00f3;tt&#x00f6;kufulltr&#x00fa;i</tspan></text>
+</g>
+<g clip-path="url(#clip_71)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="Arial" font-weight="bold"><tspan y="-342.1" x="149.08"> </tspan></text>
+</g>
+<g clip-path="url(#clip_72)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="72.025 79.775 81.995 87.525 93.025 96.275 101.775 103.995">&#x00d6;lger&#x00f0;in</tspan></text>
+</g>
+<g clip-path="url(#clip_73)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="109.55"> </tspan></text>
+</g>
+<g clip-path="url(#clip_74)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="112.55 115.05">| </tspan></text>
+</g>
+<g clip-path="url(#clip_75)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="117.8 123.3 129.04 134.54 140.04">2024 </tspan></text>
+</g>
+<g clip-path="url(#clip_76)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="142.8">&#x2013;</tspan></text>
+</g>
+<g clip-path="url(#clip_77)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="148.3"> </tspan></text>
+</g>
+<g clip-path="url(#clip_78)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="151.33 156.83 162.33 167.83">2025</tspan></text>
+</g>
+<g clip-path="url(#clip_79)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-325.6" x="173.58"> </tspan></text>
+</g>
+<g clip-path="url(#clip_80)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="Arial" font-weight="bold"><tspan y="-308.1" x="90.05 96.05 105.04 109.03 115.03 121.03 130.02 136.02 140.01001 142.79001 148.76001 152.75002 155.53002 161.00002 164.25002 169.75002 173.74002 176.99002">L&#x00e6;rd&#x00f3;mur &#x00fa;r starfi</tspan></text>
+</g>
+<g clip-path="url(#clip_81)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="Arial" font-weight="bold"><tspan y="-308.1" x="180.08"> </tspan></text>
+</g>
+<g clip-path="url(#clip_82)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-290.6" x="90.05">&#x25cf;</tspan></text>
+</g>
+<g clip-path="url(#clip_83)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-290.6" x="96.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_84)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-290.6" x="108.05 116.3 118.520008 123.54 125.76 128.03 133.03 142.02 147.52 149.74 152.52 157.52 163.02 171.27 176.27 179.02 184.52 187.77 190.55 195.52 198.51001 204.01001 209.51001 212.29001 217.26001 222.76001 231.01001 236.01001 241.01001 243.50002 249.00002 251.78002 257.25004 260.03004 262.75004 264.97004 267.24003 270.02003 275.73 281.23 284.01 286.73 292.23 297.23 302.73 307.73 310.48 313.47 318.97 321.75 326.72 328.94 334.47 337.25 342.72 347.72 356.71003 362.45 365.23 370.7 373.95 376.73 382.2 387.7 392.7 395.45 404.44004 409.94004 415.68003">Mikilv&#x00e6;gi samstarfs og samskipta til a&#x00f0; takast &#x00e1; vi&#x00f0; &#x00f3;v&#x00e6;ntar a&#x00f0;st&#x00e6;&#x00f0;ur</tspan></text>
+</g>
+<g clip-path="url(#clip_85)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-290.6" x="419.43"> </tspan></text>
+</g>
+<g clip-path="url(#clip_86)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="Arial" font-weight="bold"><tspan y="-264.33" x="72.025 81.26501 87.98601 91.75901 95.499019 102.000019 108.237018 114.958019 118.73102 125.45202 128.51003 131.48003 135.22002 139.49903 146.22002">M&#x00f3;tt&#x00f6;kufulltr&#x00fa;i</tspan></text>
+</g>
+<g clip-path="url(#clip_87)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="11" font-family="Arial" font-weight="bold"><tspan y="-264.33" x="149.08"> </tspan></text>
+</g>
+<g clip-path="url(#clip_88)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-247.58" x="72.025 79.775 85.275 88.525 94.025">G&#x00e1;ra </tspan></text>
+</g>
+<g clip-path="url(#clip_89)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-247.58" x="96.8 99.55">| </tspan></text>
+</g>
+<g clip-path="url(#clip_90)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-247.58" x="102.3 109.04 114.54 122.79 128.29001 131.54001 134.53002 140.03002 145.53002 151.03002">Sumar 2023</tspan></text>
+</g>
+<g clip-path="url(#clip_91)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-247.58" x="156.83"> </tspan></text>
+</g>
+<g clip-path="url(#clip_92)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-231.08" x="72.025 78.765 84.265 87.755 92.755 98.255 101.505 104.994998 110.494998 115.994998 121.23499 124.48499 129.985 135.485 138.975 142.46501 145.24501 150.21501 153.46501 155.68502 158.96501 162.45502 167.69503 173.19503 176.44503 181.94503 190.43503 195.93503 198.71503 201.43503 206.93503 211.93503 217.67502 221.16503 226.66503 232.16503 235.65503 240.65503 245.65503 247.89504 253.63503 259.13505 261.35505 266.88505 272.38505 274.60505 278.12504 283.12504 288.86503 292.11503 297.61503 303.11503 308.61503 313.855 322.105 327.345 329.565 335.095 338.585 341.365 344.82499 350.32499 355.32499 360.32499 365.82499 369.07499 372.81498 378.31498 383.81498 386.03498 388.30497 393.80497 396.58497 400.04496 408.03495 413.53495 416.78495 422.28495 425.06495">&#x00c9;g var &#x00e1;byrgur fyrir v&#x00f6;rum&#x00f3;tt&#x00f6;ku og skipulagi v&#x00f6;rugeymslu &#x00ed; okkar deild. G&#x00e1;ra, </tspan></text>
+</g>
+<g clip-path="url(#clip_93)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-231.08" x="429.17 434.67 440.17 442.95 445.67 451.41 454.66 457.44 462.91 465.13 470.66 476.4 479.88999 486.63 488.85 497.13 502.13 507.13 509.37 514.87 519.87 522.62 526.11007 531.11007 536.61007 540.10006">d&#x00f3;tturf&#x00e9;lag Eimskips, s&#x00e9;r </tspan></text>
+</g>
+<g clip-path="url(#clip_94)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-219.58" x="72.025 77.525 85.775 88.555 90.775 96.275 101.775 104.555 107.015 112.515 115.295 120.765 122.985 128.515 134.25499 137.03499 142.50499 148.24498 151.02498 156.49498 159.27498 161.99498 164.21498 169.74498 172.73499 178.23499 180.45499 185.98499 191.72498 194.50498 199.47498 204.97498 208.22498 213.96497 216.74497 224.96497 230.70496 236.20496 238.98496 241.70496 247.44495 252.94495 258.44496 260.66496 266.19496 271.93495 277.43495 280.21495 285.18495 287.40495 293.17494 295.95494 300.92494 305.92494 311.42494 319.91493 328.16493 330.94493 333.16493 335.91493 341.41493 344.66493 350.16493 355.66493 360.66493 365.66493 368.1549 373.6549 376.4349 379.1549 385.89494 391.63493 394.41493 399.38493 402.16493 407.63493 410.88493 413.8749 419.3749 424.8749 427.0949 429.8749 435.3749 437.8649 443.3649 448.8649 451.0849 456.6149 459.3949 462.3549 465.1349 470.6049 472.8249 478.59489 484.09489 489.59489 494.59489 497.34489 502.84489 508.58488 514.0849 516.3049 518.5748 524.0748 526.2948 531.82479 537.32479 539.81478">um innflutning og &#x00fa;tflutning vara me&#x00f0; tengingu vi&#x00f0; skemmtifer&#x00f0;askip. &#x00c9;g starfa&#x00f0;i einnig &#x00ed; &#x00fe;j&#x00f3;nustudeildinni </tspan></text>
+</g>
+<g clip-path="url(#clip_95)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-208.08" x="72.025 77.525 83.025 88.525 94.025 97.275 100.265 108.515 110.735 116.265 121.765 127.265 130.045 135.255 140.755 144.005 146.785 152.495 157.995 160.775 166.245 171.98499 175.23499 180.73499 183.51499 186.23499 189.01499 197.47499 202.97499 205.75499 208.47499 213.97499 218.97499 224.71498 230.21498 235.71498 237.93498">&#x00fe;egar minna var a&#x00f0; gera &#x00ed; m&#x00f3;tt&#x00f6;kunni.</tspan></text>
+</g>
+<g clip-path="url(#clip_96)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-208.08" x="241.1"> </tspan></text>
+</g>
+<g clip-path="url(#clip_97)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="Arial" font-weight="bold"><tspan y="-190.55" x="90.05 96.05 105.04 109.03 115.03 121.03 130.02 136.02 140.01001 142.79001 148.76001 152.75002 155.53002 161.00002 164.25002 169.75002 173.74002 176.99002">L&#x00e6;rd&#x00f3;mur &#x00fa;r starfi</tspan></text>
+</g>
+<g clip-path="url(#clip_98)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="Arial" font-weight="bold"><tspan y="-190.55" x="180.08"> </tspan></text>
+</g>
+<g clip-path="url(#clip_99)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-173.05" x="90.05">&#x25cf;</tspan></text>
+</g>
+<g clip-path="url(#clip_100)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-173.05" x="96.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_101)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-173.05" x="108.05 114.79 120.29 125.79 131.29001 136.79001 139.01001 141.79001 150.04001 155.78 159.03 161.81 167.28 172.78 175.56 180.53 182.75 188.52 194.02 199.52 202.3 207.27 209.49 215.02 217.24 220.02 225.02 227.77 236.76001 239.54001 242.26001 245.04001 250.75 256.25 259.03 261.25 266.75 271.75 276.75 282.25 287.25 290 292.78 297.75 300.24 305.74 308.52 313.99 316.21 318.47999 323.47999 328.47999 333.47999 338.97999 343.97999 346.72999 352.22999 354.44999 357.22999 362.46998 365.24998 370.21998 375.71998 381.21998 386.71998 392.21998 400.70997 406.20997 408.42997">Kenndi m&#x00e9;r a&#x00f0; vinna sj&#x00e1;lfst&#x00e6;tt og leysast vi&#x00f0; allskyns &#x00f3;l&#x00ed;k vandam&#x00e1;l&#x00b4;</tspan></text>
+</g>
+<g clip-path="url(#clip_102)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-173.05" x="412.17"> </tspan></text>
+</g>
+<g clip-path="url(#clip_103)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-159.8" x="72.025"> </tspan></text>
+</g>
+<g clip-path="url(#clip_104)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-148.3" x="72.025"> </tspan></text>
+</g>
+<g clip-path="url(#clip_105)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-136.8" x="72.025"> </tspan></text>
+</g>
+<g clip-path="url(#clip_106)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-111.53" x="72.025 80.775 87.533008">N&#x00e1;m</tspan></text>
+</g>
+<g clip-path="url(#clip_107)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="12" font-family="Arial" font-weight="bold"><tspan y="-111.53" x="98.05"> </tspan></text>
+</g>
+<g clip-path="url(#clip_108)">
+<path transform="matrix(1,0,0,-1,0,792)" d="M70.525 106.52H541.72506V107.02H70.525Z" fill="#666666" fill-rule="evenodd"/>
+</g>
+<g clip-path="url(#clip_109)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-91.025" x="72.025 77.525 83.025 88.525 94.025">2023 </tspan></text>
+</g>
+<g clip-path="url(#clip_110)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-91.025" x="96.8">&#x2013;</tspan></text>
+</g>
+<g clip-path="url(#clip_111)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-91.025" x="102.3"> </tspan></text>
+</g>
+<g clip-path="url(#clip_112)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-91.025" x="105.3 110.8 116.3 121.3 127.04 130.29 135.79 141.29 146.79 149.01 152.03 154.53 157.31 164.53 170.03 175.03 180.03 185.53 187.75 190.02 192.8 200.02 205.52 210.52 215.52 217.76001 223.26001 228.26001 231.01001 236.25002 241.75002 245.00002 247.78002 250.50002 257.24003 259.46003 264.99003 269.99003 274.99003 277.23 282.73 285.72 291.22 294 297.22 306.21003 311.71003 313.93003 316.71003 325.2 330.7 336.2 338.98 341.7 347.2 349.42 354.44 359.94 365.68 371.18 374.43 377.21 380.43 389.42 394.92 397.14 399.92 404.92 410.66 418.91 421.69 427.16 432.9 438.4 440.62 443.9 449.4 452.88999 458.38999 460.61">n&#x00fa;verandi | H&#x00e1;sk&#x00f3;li Reykjav&#x00ed;kur: Vi&#x00f0;skiptafr&#x00e6;&#x00f0;i me&#x00f0; t&#x00f6;lvunarfr&#x00e6;&#x00f0;i sem undirgrein</tspan></text>
+</g>
+<g clip-path="url(#clip_113)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-91.025" x="466.7"> </tspan></text>
+</g>
+<g clip-path="url(#clip_114)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="72.025 77.525 83.025 88.525 94.025">2020 </tspan></text>
+</g>
+<g clip-path="url(#clip_115)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="96.8">&#x2013;</tspan></text>
+</g>
+<g clip-path="url(#clip_116)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="102.3"> </tspan></text>
+</g>
+<g clip-path="url(#clip_117)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="105.3 110.8 116.3 121.8 127.54 130.32 133.04001 135.82 138.54001 141.32 144.04001 146.82 149.54001 152.53002 155.03002 157.81002 164.52 170.02">2023         | Ver</tspan></text>
+</g>
+<g clip-path="url(#clip_118)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="173.33 178.33">sl</tspan></text>
+</g>
+<g clip-path="url(#clip_119)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="180.58 186.31999 191.81999 197.31999 200.56999 205.56999 210.56999 216.06999 218.29 220.56 223.34 226.06 231.06 233.55 239.05 244.55 250.05 255.05 257.80003 260.58003 267.29005 269.51005 275.04005 280.04005 285.04005 287.28004 292.78004 295.77003 301.27003 304.05003 307.27003 316.26005 321.76005">unarsk&#x00f3;li &#x00cd;slands: Vi&#x00f0;skiptafr&#x00e6;&#x00f0;i</tspan></text>
+</g>
+<g clip-path="url(#clip_120)">
+<text xml:space="preserve" transform="matrix(1 0 -0 1 0 792)" font-size="10" font-family="ArialMT"><tspan y="-73.775" x="324.38"> </tspan></text>
+</g>
+</g>
+</svg>
