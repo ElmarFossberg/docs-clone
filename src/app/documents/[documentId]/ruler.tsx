@@ -85,7 +85,7 @@ const DocumentRuler = ({
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseLeave}
       onMouseLeave={handleMouseLeave}
-      className={`h-6 mt-2 w-[${PAGE_WIDTH || 816}px] border-b border-gray-300 mx-auto flex items-end relative select-none print:hidden`}
+      className={`h-6 mt-2 w-[816px] border-b border-gray-300 mx-auto flex items-end relative select-none print:hidden`}
     >
       <div id="ruler-container" className="w-full h-full relative">
         <Marker
@@ -103,7 +103,7 @@ const DocumentRuler = ({
           onDoubleClick={handleRightDoubleClick}
         />
         <div className="absolute inset-x-0 bottom-0 h-full">
-          <div className={`relative h-full w-[${PAGE_WIDTH || 816}px]`}>
+          <div className={`relative h-full w-[816px]`}>
             {markers.map((marker) => {
               const position = (marker * PAGE_WIDTH || 816) / 82;
               return (

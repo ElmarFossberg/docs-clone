@@ -12,7 +12,7 @@ export const Loading = async () => {
         <Toolbar />
       </div>
       <div className="pt-[120px] print:pt-0">
-        <Skeleton className={`w-[${PAGE_WIDTH || 816}px]`} />
+        <Skeleton className={`w-[816px]`} />
       </div>
     </div>
   );
