@@ -322,7 +322,7 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
                 <Link
                   href={"https://github.com/ElmarFossberg/docs-clone"}
                   target="_blank"
-                  className="text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-muted h-auto"
+                  className="bg-neutral-200/60 text-xs font-normal py-0.5 px-[7px] rounded-sm hover:bg-neutral-200 h-auto"
                 >
                   Github
                 </Link>
