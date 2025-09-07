@@ -32,6 +32,8 @@ import ListButton from "./_components/ListButton";
 import FontSizeButton from "./_components/FontSizeButton";
 import LineHeightButton from "./_components/LineHeightButton";
 import DogButton from "./_components/DogButton";
+import CatButton from "./_components/CatButton";
+import ConfettiButton from "./_components/ConfettiButton";
 
 type ToolbarItem = {
   label: string;
@@ -161,6 +163,8 @@ const Toolbar = () => {
       ))}
       <VerticalSeparator className="bg-neutral-300 " />
       <DogButton />
+      <CatButton />
+      <ConfettiButton />
     </div>
   );
 };

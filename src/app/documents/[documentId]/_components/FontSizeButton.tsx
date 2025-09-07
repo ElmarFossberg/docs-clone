@@ -14,8 +14,19 @@ const FontSizeButton = () => {
     if (!editor) return;
 
     const updateFromSelection = () => {
-      const fontSize =
-        editor.getAttributes("textStyle").fontSize?.replace("px", "") || "14";
+      const attrs = editor.getAttributes("textStyle");
+      let fontSize;
+
+      if (attrs?.fontSize) {
+        fontSize = attrs.fontSize.replace("px", "");
+      } else if (editor.isActive("heading")) {
+        const level = editor.getAttributes("heading").level;
+        fontSize =
+          level === 1 ? "28" : level === 2 ? "24" : level === 3 ? "20" : "18";
+      } else {
+        fontSize = "14";
+      }
+
       setInputValue(fontSize);
     };
 
