@@ -8,6 +8,11 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const TextColorButton = () => {
   const { editor } = useEditorStore();
@@ -20,12 +25,22 @@ const TextColorButton = () => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <button className="h-7 min-w-7 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 text-sm">
-          <span className="text-xs">A</span>
-          <div className="h-1 w-full" style={{ backgroundColor: value }}></div>
-        </button>
-      </DropdownMenuTrigger>
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <DropdownMenuTrigger asChild>
+            <button className="h-7 min-w-7 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 text-sm">
+              <span className="text-xs">A</span>
+              <div
+                className="h-1 w-full"
+                style={{ backgroundColor: value }}
+              ></div>
+            </button>
+          </DropdownMenuTrigger>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Text Color</p>
+        </TooltipContent>
+      </Tooltip>
       <DropdownMenuContent className="p-0">
         <SketchPicker color={value} onChangeComplete={onChange} />
       </DropdownMenuContent>

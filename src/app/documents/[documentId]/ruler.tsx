@@ -3,7 +3,6 @@
 import { LEFT_MARGIN_DEFAULT, RIGHT_MARGIN_DEFAULT } from "@/constants/margins";
 import React, { useRef, useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
-import { PAGE_WIDTH } from "@/constants/margins";
 
 const markers = Array.from({ length: 83 }, (_, i) => i);
 
@@ -48,15 +47,13 @@ const DocumentRuler = ({
       if (container) {
         const containerRect = container.getBoundingClientRect();
         const relativeX = e.clientX - containerRect.left;
-        const rawPosition = Math.max(0, Math.min(PAGE_WIDTH || 816, relativeX));
+        const rawPosition = Math.max(0, Math.min(816, relativeX));
         if (isDraggingLeft) {
-          const maxLeftPosition =
-            PAGE_WIDTH || 816 - rightMargin - minimumSpaceBetween;
+          const maxLeftPosition = 816 - rightMargin - minimumSpaceBetween;
           const newLeftPosition = Math.min(rawPosition, maxLeftPosition);
           setLeftMargin(newLeftPosition); // TODO: snapping?
         } else if (isDraggingRight) {
-          const maxRightPosition =
-            PAGE_WIDTH || 816 - (leftMargin + minimumSpaceBetween);
+          const maxRightPosition = 816 - (leftMargin + minimumSpaceBetween);
           const newRightPosition = Math.max(816 - rawPosition, 0);
           const constrainedRightPosition = Math.min(
             newRightPosition,
@@ -105,7 +102,7 @@ const DocumentRuler = ({
         <div className="absolute inset-x-0 bottom-0 h-full">
           <div className={`relative h-full w-[816px]`}>
             {markers.map((marker) => {
-              const position = (marker * PAGE_WIDTH || 816) / 82;
+              const position = (marker * 816) / 82;
               return (
                 <div
                   key={marker}
