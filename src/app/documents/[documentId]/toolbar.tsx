@@ -34,6 +34,10 @@ import LineHeightButton from "./_components/LineHeightButton";
 import DogButton from "./_components/DogButton";
 import CatButton from "./_components/CatButton";
 import ConfettiButton from "./_components/ConfettiButton";
+import AddColumnButton from "./_components/(table)/AddColumnButton";
+import AddRowButton from "./_components/(table)/AddRowButton";
+import ToggleHeaderRowButton from "./_components/(table)/ToggleHeaderRowButton";
+import ToggleHeaderColumnButton from "./_components/(table)/ToggleHeaderColumnButton";
 
 type ToolbarItem = {
   label: string;
@@ -161,6 +165,15 @@ const Toolbar = () => {
       {easyToolbarItems[2].map((item) => (
         <ToolbarButton key={item.label} {...item} />
       ))}
+      {editor?.isActive("table") && (
+        <>
+          <VerticalSeparator className="bg-neutral-300 " />
+          <AddColumnButton />
+          <AddRowButton />
+          <ToggleHeaderColumnButton />
+          <ToggleHeaderRowButton />
+        </>
+      )}
       <VerticalSeparator className="bg-neutral-300 " />
       <DogButton />
       <CatButton />

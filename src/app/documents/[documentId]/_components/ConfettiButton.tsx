@@ -21,7 +21,7 @@ const ConfettiButton = () => {
   };
 
   return (
-    <Tooltip>
+    <Tooltip delayDuration={500}>
       <TooltipTrigger asChild>
         <div>
           <button

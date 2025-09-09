@@ -22,7 +22,7 @@ const DogButton = () => {
   };
 
   return (
-    <Tooltip>
+    <Tooltip delayDuration={500}>
       <TooltipTrigger asChild>
         <button
           onClick={handleClick}
