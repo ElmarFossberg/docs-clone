@@ -8,21 +8,14 @@ import {
   DropdownMenuTrigger,
   DropdownMenuItem,
 } from "@/components/ui/dropdown-menu";
-import {
-  Dialog,
-  DialogContent,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
+
 import { ImageIcon, Search, UploadIcon } from "lucide-react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
+
+import PasteImageDialog from "../PasteImageDialog";
 
 const ImageButton = () => {
   const { editor } = useEditorStore();
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-  const [imageUrl, setImageUrl] = useState("");
 
   const onChange = (src: string) => {
     editor?.chain().focus().setImage({ src }).run();
@@ -42,14 +35,6 @@ const ImageButton = () => {
     input.click();
   };
 
-  const handleImaegUrlSubmit = () => {
-    if (imageUrl) {
-      onChange(imageUrl);
-      setImageUrl("");
-      setIsDialogOpen(false);
-    }
-  };
-
   return (
     <>
       <DropdownMenu>
@@ -60,35 +45,20 @@ const ImageButton = () => {
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuItem onClick={onUpload}>
-            <UploadIcon className="size-4 mr-2" />
+            <UploadIcon className="size-4" />
             Upload
           </DropdownMenuItem>
           <DropdownMenuItem onClick={() => setIsDialogOpen(true)}>
-            <Search className="size-4 mr-2" />
+            <Search className="size-4" />
             Paste from web
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
-      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Insert image URL</DialogTitle>
-          </DialogHeader>
-          <Input
-            placeholder="https://example.com"
-            value={imageUrl}
-            onChange={(e) => setImageUrl(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                handleImaegUrlSubmit();
-              }
-            }}
-          />
-          <DialogFooter>
-            <Button onClick={handleImaegUrlSubmit}>Insert</Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
+      <PasteImageDialog
+        isDialogOpen={isDialogOpen}
+        setIsDialogOpen={setIsDialogOpen}
+        onChange={onChange}
+      />
     </>
   );
 };

@@ -57,7 +57,7 @@ const DocumentRuler = ({
         } else if (isDraggingRight) {
           const maxRightPosition =
             PAGE_WIDTH || 816 - (leftMargin + minimumSpaceBetween);
-          const newRightPosition = Math.max(PAGE_WIDTH || 816 - rawPosition, 0);
+          const newRightPosition = Math.max(816 - rawPosition, 0);
           const constrainedRightPosition = Math.min(
             newRightPosition,
             maxRightPosition
