@@ -7,6 +7,11 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "@/components/ui/tooltip";
 
 import { cn } from "@/lib/utils";
 import { ListCollapseIcon } from "lucide-react";
@@ -36,11 +41,18 @@ const LineHeightButton = () => {
 
   return (
     <DropdownMenu modal={false}>
-      <DropdownMenuTrigger asChild>
-        <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
-          <ListCollapseIcon className="size-4" />
-        </button>
-      </DropdownMenuTrigger>
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <DropdownMenuTrigger asChild>
+            <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
+              <ListCollapseIcon className="size-4" />
+            </button>
+          </DropdownMenuTrigger>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Line Spacing</p>
+        </TooltipContent>
+      </Tooltip>
       <DropdownMenuContent className="p-1 flex flex-col gap-y-1">
         {LineHeight.map(({ label, value }) => (
           <button

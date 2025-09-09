@@ -10,6 +10,11 @@ import {
 import { Link2Icon } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const LinkButton = () => {
   const { editor } = useEditorStore();
@@ -25,12 +30,20 @@ const LinkButton = () => {
       onOpenChange={(isOpen) => {
         if (isOpen) setValue(editor?.getAttributes("link").href || "");
       }}
+      modal={false}
     >
-      <DropdownMenuTrigger asChild>
-        <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
-          <Link2Icon className="size-4" />
-        </button>
-      </DropdownMenuTrigger>
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <DropdownMenuTrigger asChild>
+            <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
+              <Link2Icon className="size-4" />
+            </button>
+          </DropdownMenuTrigger>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Link Text</p>
+        </TooltipContent>
+      </Tooltip>
       <DropdownMenuContent className="p-2.5 flex items-center gap-x-2">
         <Input
           placeholder="https://example.com"

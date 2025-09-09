@@ -9,6 +9,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { HighlighterIcon } from "lucide-react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const HighlightButton = () => {
   const { editor } = useEditorStore();
@@ -21,11 +26,18 @@ const HighlightButton = () => {
 
   return (
     <DropdownMenu modal={false}>
-      <DropdownMenuTrigger asChild>
-        <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
-          <HighlighterIcon className="size-4" />
-        </button>
-      </DropdownMenuTrigger>
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <DropdownMenuTrigger asChild>
+            <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
+              <HighlighterIcon className="size-4" />
+            </button>
+          </DropdownMenuTrigger>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Highlight Text</p>
+        </TooltipContent>
+      </Tooltip>
       <DropdownMenuContent className="p-2.5">
         <CirclePicker
           color={value}
