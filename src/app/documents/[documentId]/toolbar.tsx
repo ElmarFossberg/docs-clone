@@ -8,7 +8,7 @@ import {
   PrinterIcon,
   Redo2Icon,
   RemoveFormatting,
-  SpellCheckIcon,
+  SpellCheck2Icon,
   UnderlineIcon,
   Undo2Icon,
 } from "lucide-react";
@@ -16,28 +16,31 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { useEditorStore } from "@/store/use-editor-store";
 import VerticalSeparator from "@/components/ui/custom-separator";
-import FontFamilyButton from "./_components/FontFamilyButton";
-import HeadingButton from "./_components/HeadingButton";
-import TextColorButton from "./_components/TextColorButton";
-import HighlightButton from "./_components/HighlightButton";
-import LinkButton from "./_components/LinkButton";
+import FontFamilyButton from "./_components/(font)/FontFamilyButton";
+import HeadingButton from "./_components/(font)/HeadingButton";
+import TextColorButton from "./_components/(font)/TextColorButton";
+import HighlightButton from "./_components/(font)/HighlightButton";
+import LinkButton from "./_components/(text-format)/LinkButton";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import ImageButton from "./_components/ImageButton";
-import AlignButton from "./_components/AlignButton";
-import ListButton from "./_components/ListButton";
-import FontSizeButton from "./_components/FontSizeButton";
-import LineHeightButton from "./_components/LineHeightButton";
-import DogButton from "./_components/DogButton";
-import CatButton from "./_components/CatButton";
-import ConfettiButton from "./_components/ConfettiButton";
+import ImageButton from "./_components/(text-format)/ImageButton";
+import AlignButton from "./_components/(text-format)/AlignButton";
+import ListButton from "./_components/(text-format)/ListButton";
+import FontSizeButton from "./_components/(font)/FontSizeButton";
+import LineHeightButton from "./_components/(text-format)/LineHeightButton";
+import DogButton from "./_components/(fun)/DogButton";
+import CatButton from "./_components/(fun)/CatButton";
+import ConfettiButton from "./_components/(fun)/ConfettiButton";
 import AddColumnButton from "./_components/(table)/AddColumnButton";
 import AddRowButton from "./_components/(table)/AddRowButton";
 import ToggleHeaderRowButton from "./_components/(table)/ToggleHeaderRowButton";
 import ToggleHeaderColumnButton from "./_components/(table)/ToggleHeaderColumnButton";
+import EmojiButton from "./_components/(fun)/EmojiButton";
+// import AiReportButton from "./_components/(ai)/AiReportButton";
+// import PolishButton from "./_components/(ai)/PolishButton";
 
 type ToolbarItem = {
   label: string;
@@ -93,8 +96,8 @@ const Toolbar = () => {
         onClick: () => window.print(),
       },
       {
-        label: "Spell Check",
-        icon: SpellCheckIcon,
+        label: "Toggle Spell Check",
+        icon: SpellCheck2Icon,
         onClick: () => {
           const current = editor?.view.dom.getAttribute("spellcheck");
           editor?.view.dom.setAttribute(
@@ -175,6 +178,7 @@ const Toolbar = () => {
         </>
       )}
       <VerticalSeparator className="bg-neutral-300 " />
+      <EmojiButton />
       <DogButton />
       <CatButton />
       <ConfettiButton />

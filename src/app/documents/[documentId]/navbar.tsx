@@ -20,21 +20,25 @@ import {
   BoldIcon,
   CodeIcon,
   CodeSquareIcon,
+  CopyIcon,
   FileIcon,
   FileJsonIcon,
   FilePenIcon,
   FilePlusIcon,
   FileTextIcon,
   GlobeIcon,
+  ImageIcon,
   ItalicIcon,
   PrinterIcon,
   Redo2Icon,
   RemoveFormattingIcon,
+  Search,
   StrikethroughIcon,
   TextIcon,
   TrashIcon,
   UnderlineIcon,
   Undo2Icon,
+  UploadIcon,
 } from "lucide-react";
 import { BsBlockquoteLeft, BsFilePdf } from "react-icons/bs";
 import { getOSFromUA } from "@/lib/utils";
@@ -46,6 +50,7 @@ import { api } from "../../../../convex/_generated/api";
 import { useRouter } from "next/navigation";
 import RemoveDialog from "@/app/_components/RemoveDialog";
 import RenameDialog from "@/app/_components/RenameDialog";
+import PasteImageDialog from "./_components/PasteImageDialog";
 
 const NavBar = ({ data }: { data: Doc<"documents"> }) => {
   const [docTitle, setDocTitle] = useState("Untitled Document");
@@ -66,8 +71,15 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
     );
   };
   const { editor } = useEditorStore();
+  const handleCreateCopyDocument = () => {
+    createDocument({
+      title: `Copy of ${data.title}`,
+      initialContent: data.content,
+    }).then((id) => {
+      router.push(`/documents/${id}`);
+    });
+  };
 
-  // TODO: WHEN CREATING A TABLE ACTIVATE MORE TOOLS IN THE TOOLBAR (ADDING/REMOVING ROWS/COLS, MERGE CELLS, ETC)
   const insertTable = ({ rows, cols }: { rows: number; cols: number }) => {
     editor
       ?.chain()
@@ -76,6 +88,7 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
       .run();
   };
 
+  // Saving Document
   const onDownload = (blob: Blob, filename: string) => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -101,7 +114,7 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
     });
     onDownload(blob, `${docTitle}.html`);
   };
-
+  // TODO: onSavePdf (insted of print)
   const onSaveText = () => {
     if (!editor) return;
     const content = editor.getText();
@@ -110,7 +123,24 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
     });
     onDownload(blob, `${docTitle}.txt`);
   };
-  // TODO: onSavePdf (insted of print)
+  // Insert -> Image
+  const onChange = (src: string) => {
+    editor?.chain().focus().setImage({ src }).run();
+  };
+  const onUpload = () => {
+    const input = document.createElement("input");
+    input.type = "file";
+    input.accept = "image/*";
+    input.onchange = (e) => {
+      const file = (e.target as HTMLInputElement).files?.[0];
+      if (file) {
+        const imageUrl = URL.createObjectURL(file);
+        onChange(imageUrl);
+      }
+    };
+    input.click();
+  };
+  const [isImageDialogOpen, setIsImageDialogOpen] = useState(false);
 
   return (
     <header className="mt-0.5">
@@ -130,7 +160,7 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
                   <MenubarContent className="print:hidden">
                     <MenubarSub>
                       <MenubarSubTrigger>
-                        <FileIcon className="size-4 mr-2" />
+                        <FileIcon className="size-4 mr-2 text-muted-foreground" />
                         Save As
                       </MenubarSubTrigger>
                       <MenubarSubContent>
@@ -155,6 +185,10 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
                     <MenubarItem onClick={handleCreateDocument}>
                       <FilePlusIcon className="size-4" />
                       New Document
+                    </MenubarItem>
+                    <MenubarItem onClick={handleCreateCopyDocument}>
+                      <CopyIcon className="size-4" />
+                      Make a copy
                     </MenubarItem>
                     <MenubarSeparator />
                     <RenameDialog
@@ -239,6 +273,22 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
                         </MenubarItem>
                       </MenubarSubContent>
                     </MenubarSub>
+                    <MenubarSub>
+                      <MenubarSubTrigger>
+                        <ImageIcon className="size-4 mr-2 text-muted-foreground" />
+                        Image
+                      </MenubarSubTrigger>
+                      <MenubarSubContent>
+                        <MenubarItem onClick={onUpload}>
+                          <UploadIcon className="size-4" />
+                          Upload
+                        </MenubarItem>
+                        <MenubarItem onClick={() => setIsImageDialogOpen(true)}>
+                          <Search className="size-4" />
+                          Paste from web
+                        </MenubarItem>
+                      </MenubarSubContent>
+                    </MenubarSub>
                   </MenubarContent>
                 </MenubarMenu>
                 <MenubarMenu>
@@ -319,6 +369,11 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
                     </MenubarItem>
                   </MenubarContent>
                 </MenubarMenu>
+                <PasteImageDialog
+                  isDialogOpen={isImageDialogOpen}
+                  setIsDialogOpen={setIsImageDialogOpen}
+                  onChange={onChange}
+                />
                 <Link
                   href={"https://github.com/ElmarFossberg/docs-clone"}
                   target="_blank"
