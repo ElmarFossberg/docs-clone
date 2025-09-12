@@ -19,15 +19,15 @@ const TemplateGallery = () => {
   const createDocument = useMutation(api.documents.createDocument);
   const [isCreating, setIsCreating] = useState(false);
 
-  const onTemplateClick = (title: string, initialContent?: string) => {
+  const onTemplateClick = async (title: string, initialContent?: string) => {
     setIsCreating(true);
-    createDocument({ title, initialContent })
-      .then((documentId) => {
-        router.push(`/documents/${documentId}`);
-      })
-      .finally(() => {
-        setIsCreating(false);
-      });
+    try {
+      const documentId = await createDocument({ title, initialContent });
+      router.push(`/documents/${documentId}`);
+    } catch (err) {
+      console.error(err);
+      setIsCreating(false);
+    }
   };
 
   return (
@@ -50,7 +50,6 @@ const TemplateGallery = () => {
                   <button
                     disabled={isCreating}
                     onClick={() =>
-                      !isCreating &&
                       onTemplateClick(template.label, template?.initialContent)
                     }
                     style={{
