@@ -34,6 +34,7 @@ import {
   RemoveFormattingIcon,
   Search,
   StrikethroughIcon,
+  TableIcon,
   TextIcon,
   TrashIcon,
   UnderlineIcon,
@@ -249,7 +250,10 @@ const NavBar = ({ data }: { data: Doc<"documents"> }) => {
                   </MenubarTrigger>
                   <MenubarContent>
                     <MenubarSub>
-                      <MenubarSubTrigger>Table</MenubarSubTrigger>
+                      <MenubarSubTrigger>
+                        <TableIcon className="size-4 mr-2 text-muted-foreground" />
+                        Table
+                      </MenubarSubTrigger>
                       <MenubarSubContent>
                         <MenubarItem
                           onClick={() => insertTable({ rows: 2, cols: 2 })}

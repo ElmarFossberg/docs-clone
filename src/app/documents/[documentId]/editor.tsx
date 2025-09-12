@@ -20,12 +20,24 @@ import { api } from "../../../../convex/_generated/api";
 import { Id } from "../../../../convex/_generated/dataModel";
 import { LEFT_MARGIN_DEFAULT, RIGHT_MARGIN_DEFAULT } from "@/constants/margins";
 import Link from "@tiptap/extension-link";
-
+import {
+  ContextMenu,
+  ContextMenuContent,
+  ContextMenuItem,
+  ContextMenuTrigger,
+  ContextMenuSeparator,
+} from "@/components/ui/context-menu";
 type EditorProps = {
   initialContent?: string | undefined;
   id: Id<"documents">;
   content?: string | undefined;
 };
+import {
+  getTextMenuItems,
+  getDefaultMenuItems,
+  getTableMenuItems,
+  type MenuItem,
+} from "./_components/menu-items";
 
 const Editor = ({ initialContent, id, content }: EditorProps) => {
   const [leftMargin, setLeftMargin] = useState(LEFT_MARGIN_DEFAULT);
@@ -99,6 +111,7 @@ const Editor = ({ initialContent, id, content }: EditorProps) => {
     // Don't render immediately on the server to avoid SSR issues
     immediatelyRender: false,
   });
+  const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
 
   if (!editor) {
     return (
@@ -129,7 +142,57 @@ const Editor = ({ initialContent, id, content }: EditorProps) => {
       <div
         className={`min-w-max flex justify-center w-[816px] h-[1056px] py-4 print:py-0 mx-auto print:w-full print:min-w-0`}
       >
-        <EditorContent editor={editor} />
+        <ContextMenu>
+          <ContextMenuTrigger
+            asChild
+            onContextMenu={(event) => {
+              if (!editor) return;
+
+              const coords = { left: event.clientX, top: event.clientY };
+              const pos = editor.view.posAtCoords({
+                left: coords.left,
+                top: coords.top,
+              });
+
+              if (!pos) {
+                setMenuItems(getDefaultMenuItems(editor));
+                return;
+              }
+
+              const resolvedPos = editor.state.doc.resolve(pos.pos);
+
+              let tableNode = null;
+              for (let depth = resolvedPos.depth; depth >= 0; depth--) {
+                const node = resolvedPos.node(depth);
+                if (node.type.name === "table") {
+                  tableNode = node;
+                  break;
+                }
+              }
+
+              if (tableNode) {
+                setMenuItems(getTableMenuItems(editor));
+              } else {
+                setMenuItems(getTextMenuItems(editor));
+              }
+            }}
+          >
+            <EditorContent editor={editor} />
+          </ContextMenuTrigger>
+
+          <ContextMenuContent>
+            {menuItems.map((item) =>
+              item.isSeparator ? (
+                <ContextMenuSeparator key={item.label} />
+              ) : (
+                <ContextMenuItem key={item.label} onClick={item.onClick}>
+                  {item.icon && <item.icon className="size-4" />}
+                  {item.label}
+                </ContextMenuItem>
+              )
+            )}
+          </ContextMenuContent>
+        </ContextMenu>
       </div>
     </div>
   );
