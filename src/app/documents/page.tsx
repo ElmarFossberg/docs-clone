@@ -1,7 +1,16 @@
-import React from "react";
+"use client";
 
-const page = () => {
-  return <div>Documents Page</div>;
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+
+const Page = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/");
+  }, [router]);
+
+  return null;
 };
 
-export default page;
+export default Page;
