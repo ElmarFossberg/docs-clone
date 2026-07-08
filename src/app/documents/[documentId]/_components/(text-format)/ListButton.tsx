@@ -8,6 +8,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { ListIcon, ListOrderedIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const ListButton = () => {
   const { editor } = useEditorStore();
@@ -33,11 +38,18 @@ const ListButton = () => {
 
   return (
     <DropdownMenu modal={false}>
-      <DropdownMenuTrigger asChild>
-        <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
-          <ListIcon className="size-4" />
-        </button>
-      </DropdownMenuTrigger>
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <DropdownMenuTrigger asChild>
+            <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
+              <ListIcon className="size-4" />
+            </button>
+          </DropdownMenuTrigger>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Text Lists</p>
+        </TooltipContent>
+      </Tooltip>
       <DropdownMenuContent className="p-1 flex flex-col gap-y-1">
         {lists.map(({ label, onClick, isActive, icon: Icon }) => (
           <button

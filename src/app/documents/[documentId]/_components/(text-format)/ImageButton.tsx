@@ -12,6 +12,11 @@ import {
 import { ImageIcon, Search, UploadIcon } from "lucide-react";
 
 import PasteImageDialog from "../PasteImageDialog";
+import {
+  Tooltip,
+  TooltipTrigger,
+  TooltipContent,
+} from "@/components/ui/tooltip";
 
 const ImageButton = () => {
   const { editor } = useEditorStore();
@@ -38,21 +43,28 @@ const ImageButton = () => {
   return (
     <>
       <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
-            <ImageIcon className="size-4" />
-          </button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent>
-          <DropdownMenuItem onClick={onUpload}>
-            <UploadIcon className="size-4" />
-            Upload
-          </DropdownMenuItem>
-          <DropdownMenuItem onClick={() => setIsDialogOpen(true)}>
-            <Search className="size-4" />
-            Paste from web
-          </DropdownMenuItem>
-        </DropdownMenuContent>
+        <Tooltip delayDuration={500}>
+          <TooltipTrigger asChild>
+            <DropdownMenuTrigger asChild>
+              <button className="h-7 min-w-7 shrink-0 flex flex-col items-center justify-center rounded-sm hover:bg-neutral-200/80 px-1.5 overflow-hidden text-sm">
+                <ImageIcon className="size-4" />
+              </button>
+            </DropdownMenuTrigger>
+          </TooltipTrigger>
+          <TooltipContent side="bottom">
+            <p>Add Image</p>
+          </TooltipContent>
+          <DropdownMenuContent>
+            <DropdownMenuItem onClick={onUpload}>
+              <UploadIcon className="size-4" />
+              Upload
+            </DropdownMenuItem>
+            <DropdownMenuItem onClick={() => setIsDialogOpen(true)}>
+              <Search className="size-4" />
+              Paste from web
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </Tooltip>
       </DropdownMenu>
       <PasteImageDialog
         isDialogOpen={isDialogOpen}

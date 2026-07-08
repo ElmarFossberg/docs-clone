@@ -4,6 +4,11 @@
 import React, { useState, useEffect } from "react";
 import { useEditorStore } from "@/store/use-editor-store";
 import { MinusIcon, PlusIcon } from "lucide-react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const FontSizeButton = () => {
   const { editor } = useEditorStore();
@@ -70,13 +75,19 @@ const FontSizeButton = () => {
 
   return (
     <div className="flex items-center gap-x-0.5">
-      <button
-        onClick={decrement}
-        className="h-7 min-w-7 shrink-0 flex items-center justify-center rounded-sm hover:bg-neutral-200/80"
-      >
-        <MinusIcon className="size-4" />
-      </button>
-
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <button
+            onClick={decrement}
+            className="h-7 min-w-7 shrink-0 flex items-center justify-center rounded-sm hover:bg-neutral-200/80"
+          >
+            <MinusIcon className="size-4" />
+          </button>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Decrease Font size</p>
+        </TooltipContent>
+      </Tooltip>
       <input
         type="text"
         value={inputValue}
@@ -85,13 +96,19 @@ const FontSizeButton = () => {
         onKeyDown={handleKeyDown}
         className="h-7 w-10 text-xs text-center border border-neutral-400 rounded-sm bg-transparent focus:outline-none focus:ring-0"
       />
-
-      <button
-        onClick={increment}
-        className="h-7 min-w-7 shrink-0 flex items-center justify-center rounded-sm hover:bg-neutral-200/80"
-      >
-        <PlusIcon className="size-4" />
-      </button>
+      <Tooltip delayDuration={500}>
+        <TooltipTrigger asChild>
+          <button
+            onClick={increment}
+            className="h-7 min-w-7 shrink-0 flex items-center justify-center rounded-sm hover:bg-neutral-200/80"
+          >
+            <PlusIcon className="size-4" />
+          </button>
+        </TooltipTrigger>
+        <TooltipContent side="bottom">
+          <p>Increase Font size</p>
+        </TooltipContent>
+      </Tooltip>
     </div>
   );
 };
